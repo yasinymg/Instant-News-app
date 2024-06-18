@@ -53,7 +53,7 @@ const fetchNews = async (
                 query,
                 variables: {
                     access_key: process.env.NEXT_PUBLIC_MEDIASTACK_API_KEY,
-                    catergories: category,
+                    categories: category,  // Corrected spelling
                     keywords: keywords,
                 }
             })

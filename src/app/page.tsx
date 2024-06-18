@@ -1,5 +1,7 @@
 import { categories } from "../../constants";
 import fetchNews from "../../lib/FetchNews";
+import NewsList from "./NewsList";
+import response from "../../response.json"
 
 async function Homepage() {
   // Fetch news data
@@ -19,7 +21,7 @@ async function Homepage() {
 
   return (
     <div>
-      {/* NewsList news */}
+      <NewsList news={news}/>
     </div>
   );
 }

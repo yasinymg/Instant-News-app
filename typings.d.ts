@@ -7,7 +7,7 @@ type Article = {
     language: string;
     published_at: string;
     source: string;
-    tittle: string;
+    title: string;
     Url: string;
 
 
