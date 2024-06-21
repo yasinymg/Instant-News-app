@@ -590,6 +590,20 @@ video {
 .navLink:active {
   text-decoration-line: underline;
 }
+.HeaderTitle {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-top: 1.25rem;
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  text-transform: capitalize;
+  text-decoration-line: underline;
+  text-decoration-color: #fb923c;
+  text-decoration-style: double;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
 .mx-auto {
   margin-left: auto;
   margin-right: auto;

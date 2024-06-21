@@ -34,8 +34,8 @@ export default function RootLayout({
         {children}
 
         </div>
-        </body>
+      </body>
         </Providers>
-    </html>
+      </html>
   );
 }

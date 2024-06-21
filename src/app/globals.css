@@ -7,6 +7,10 @@
     underline-offset-8 rounded-full p-4 cursor-pointer hover:font-bold capitalize hover:scale-110 transition-transform duration-200
     ease-out;
   }
+  .HeaderTitle {
+    @apply text-3xl font-serif capitalize px-10 pt-5 underline decoration-orange-400 decoration-2
+    underline-offset-4 decoration-double
+  }
 }
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -36,4 +40,5 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+ 
 }
